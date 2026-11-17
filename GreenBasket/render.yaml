@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: greenbasket-grocery
+    runtime: docker
+    plan: free
+    healthCheckPath: /
